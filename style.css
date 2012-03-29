@@ -1,5 +1,87 @@
 body {
-	background: #ff0080;
-	color:white;
+	background: #87cefa;
+	color:black;
 	font-size:40px;
 }
+
+#login {
+	width: 15%;
+	height: 10%;
+	margin-left:80%;
+	float: left;
+	background: none;
+	position:absolute;
+	border: solid white 2px;
+}
+
+#logo {
+	width: 70%;
+	height: 15%;
+	margin-top: 12%;
+	margin-left: 15%;
+	float: left;
+	position:absolute;
+	border: solid white 2px;
+}
+
+.3button {
+	border: solid white 2px;
+}
+
+#name {
+	width: 20%;
+	height: 10%;
+	margin-left: 20%;
+	margin-top: 28%;
+	float:left;
+	position:absolute;
+	border: solid white 2px;
+}
+
+.nsearch {
+	display: none;
+}
+
+#name:hover > .nsearch {
+	display: inline;
+	border: solid #ff0080 3px;
+}
+
+#cuisine {
+	width: 20%;
+	height: 10%;
+	margin-left: 42%;
+	margin-top: 28%;
+	float:left;
+	position:absolute;
+	border: solid white 2px;
+}
+
+.clist {
+	display: none;
+}
+
+#cuisine:hover > .clist {
+	display: inline;
+	border: solid #ff0080 3px;
+}
+
+#location {
+	width: 20%;
+	height: 10%;
+	margin-left: 64%;
+	margin-top: 22%;
+	float:left;
+	position:absolute;
+	border: solid white 2px;
+}
+
+.llist {
+	display: none;
+}
+
+#location:hover > .llist {
+	display: inline;
+	border: solid #ff0080 3px;
+}
+
